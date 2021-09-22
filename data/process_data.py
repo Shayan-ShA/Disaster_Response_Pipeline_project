@@ -26,6 +26,7 @@ def clean_data(df):
 
         # convert column from string to numeric
         categories[column] = categories[column].apply(pd.to_numeric)
+    categories['related'] = categories['related'].replace(to_replace=2, value=1)
     del df['categories']
     df = pd.concat([df, categories], axis=1)
     df = df.drop_duplicates(keep='first')
