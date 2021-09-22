@@ -25,6 +25,9 @@ The project includes a web app where one can input a new message and get classif
 <h2>How to Run</h2>
 <ol>
   <li>
+  After cloning this repository to your local computer, change the working directory to be in the forlder containing the scripts.
+  </li>
+  <li>
   Create a virtual environment in python, activate it and put all the files in this repository inside it.
    </li><li>
   Create a SQLite database named DisasterResponse.db in the file data by running the code below.
