@@ -23,7 +23,6 @@ def load_data(database_filepath):
     df = pd.read_sql('select * from messages', engine)
     X = df['message']
     y = df.iloc[:, 4:39]
-    y['related'].replace(2, 1, inplace=True)
     category_names = y.columns.tolist()
     return X, y, category_names
 
