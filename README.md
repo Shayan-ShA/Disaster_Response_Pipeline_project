@@ -15,7 +15,8 @@ The project also includes a flask web app where an emergency worker can input a 
 
 <h2>Flask Web App</h2>
 The project includes a web app where one can input a new message and get classification results in many categories. The web app will also display visualizations of the data. The outputs are as show below:
-
+![Image1.png](https://github.com/Shayan-ShA/Disaster_Response_Pipeline_project-Udacity_Data_Science/blob/main/Screenshots/Image1.png)
+![Image2.png](https://github.com/Shayan-ShA/Disaster_Response_Pipeline_project-Udacity_Data_Science/blob/main/Screenshots/Image2.png)
 
 <h2>How to Run</h2>
 <ol>
