@@ -36,7 +36,7 @@ def clean_data(df):
 def save_data(df, database_filename):
     '''Saves the cleaned dataframe to a table messages in the database given'''
     engine = create_engine('sqlite:///'+ database_filename)
-    df.to_sql('messages', engine, index=False)  
+    df.to_sql('messages', engine, if_exists='replace', index=False)  
 
 
 def main():
