@@ -12,6 +12,11 @@ The project also includes a flask web app where an emergency worker can input a 
   <li>
   <b>run.py</b>: The web app, run.py, runs in the terminal without errors. The main page includes at least two visualizations using data from the SQLite database.</li>
 </ol>
+
+<h2>Flask Web App</h2>
+The project includes a web app where one can input a new message and get classification results in many categories. The web app will also display visualizations of the data. The outputs are as show below:
+
+
 <h2>How to Run</h2>
 <ol>
   <li>
