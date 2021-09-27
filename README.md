@@ -42,3 +42,7 @@ The project includes a web app where one can input a new message and get classif
   In a browser window, type in the link provided as a result of running run.py 
   </li>
 </ol>
+
+
+
+![Certificate.pdf](https://github.com/Shayan-ShA/Disaster_Response_Pipeline_project-Udacity_Data_Science/blob/main/Certificate.PNG)
